@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<HtmlPet_WebForms>
+			<active>true</active>
+			<codePool>local</codePool>
+		</HtmlPet_WebForms>
+	</modules>
+	<depends>
+	    <VladimirPopov_WebForms />
+	</depends>
+</config>

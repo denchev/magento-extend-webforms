@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <HtmlPet_WebForms>
+            <version>0.3.0</version>
+        </HtmlPet_WebForms>
+    </modules>
+    <global>
+    	<models>
+            <webforms>
+                <rewrite>
+                    <results>HtmlPet_WebForms_Model_Results</results>
+                </rewrite>
+            </webforms>
+        </models>
+        <blocks>
+            <webforms>
+                <rewrite>
+                    <adminhtml_webforms_edit_tab_email>HtmlPet_WebForms_Block_Adminhtml_Webforms_Edit_Tab_Email</adminhtml_webforms_edit_tab_email>
+                </rewrite>
+            </webforms>
+        </blocks>
+        <resources>
+            <webforms_setup_local>
+                <setup>
+                    <module>HtmlPet_WebForms</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </webforms_setup_local>
+        </resources>
+    </global>
+</config>
